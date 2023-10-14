@@ -366,8 +366,9 @@ padding-bottom: 120px;
 .ourteam-list{
   display: flex;
   gap: 24px;
-  max-height: 380px;
-  max-width: 264px;
+  justify-content: center;
+  /* max-height: 380px; */
+  /* max-width: 264px; */
 }
 
 .ourteam-item {
