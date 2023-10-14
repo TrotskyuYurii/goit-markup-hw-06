@@ -1074,6 +1074,9 @@ margin-bottom: 16px;
 
   .ourteam-list{
     justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;    
+    gap: 64px 24px;
   }
 
 }
@@ -1157,6 +1160,7 @@ margin-bottom: 16px;
 .ourteam-list{
   flex-direction: row;
   gap: 24px;
+  justify-content: center;
   /* max-height: 380px; */
   /* max-width: 264px; */
 }
