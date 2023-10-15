@@ -570,18 +570,27 @@ padding-bottom: 120px;
 
 .footer{
  background: #2E2F42;   
- padding: 100px 0;
- /* height: 320px; */
+ 
+
+/* mobile */
+ width: 320px;
+ height: 664px;
+ padding-top: 97.5px;
+ padding-left: 16px;
+ padding-right: 16px;
+
 }
 
 .footer-all-div{
-  display: flex;
+  display: block;
   align-items: baseline;
+padding-left: 0px;
+padding-right: 0px;
   }
 
 
   .footer-container{
-margin-right: 120px;
+    text-align: center;
   }
   
   
@@ -595,6 +604,8 @@ margin-right: 120px;
     letter-spacing: 0.03em;
     text-transform: uppercase;      
 }
+
+
 .footer-logo span{
   color: #F4F4FD;
 }
@@ -604,10 +615,17 @@ margin-right: 120px;
   letter-spacing: 0.02em;   
   max-width: 264px;
   margin-top: 17.5px;
+  text-align: left;
+  margin-bottom: 72px;
 }
 
 .footer-soc-box{
-  margin-right: 80px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Вирівнювання по горизонталі (центр) */
+  align-items: center; 
+  margin-bottom: 72px;
 }
 
 .footer-social-media{
@@ -617,11 +635,13 @@ margin-right: 120px;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em; 
   margin-bottom: 16px;
+  text-align: center;
 }
 
 .footer-list{
   display: flex;
   gap: 16px;
+  
 }
 
 .footer-soc-wrap{
@@ -937,6 +957,14 @@ margin-bottom: 24px;
 
 /* footer form */
 
+.footer-form-div{
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  flex-direction: column;
+}
+
+
 .subscribe-text{
   color: #FFFFFF;
   font-size: 16px;
@@ -1097,10 +1125,14 @@ margin-bottom: 16px;
   }
 
 
-.footer{
+  .footer{
+    height: 456px;
+    width: 768px;
+  }
 
-}
-
+  .footer-container{
+   
+  }
 }
 
 
@@ -1201,7 +1233,38 @@ margin-bottom: 16px;
 }
 
 .footer{
-  
+  padding: 100px 0;
+
+  width: 100%;
+  height: 312px;
 }
 
+.footer-all-div{
+  display: flex;
+  
+  }
+
+  .footer-container{
+    margin-left: 156px;
+    text-align: left;
+  }
+
+
+  .footer-soc-box{
+    margin-right: 80px;
+    align-items:baseline; 
+    /* margin-bottom: 2px; */
+   }
+
+
+  .footer-social-media{
+    text-align: left;
+  }
+
+  .footer-form-div{
+    align-items: baseline; 
+    
+  }
+
 }
+
