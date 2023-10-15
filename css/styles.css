@@ -65,7 +65,8 @@ body {
 .header{
   border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
-  max-height: 56px;
+  height: 56px;
+  width: 100%;
 
 }
 
@@ -94,6 +95,12 @@ body {
 .mobile-menu-button{
   border-style: none;
   background: transparent;
+  margin-top: 14px;
+  margin-left: auto;
+
+  /* position: fixed;
+  top: 14px; 
+  right: 0px; */
 }
 
 .adress-lists{
@@ -104,8 +111,9 @@ body {
 
 .header-navigation{
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  
+  /* justify-content: space-between; */
+  /* align-items: center;  */
 }
 
 .header-menu-item{
@@ -1069,6 +1077,11 @@ margin-bottom: 16px;
     height: 72px;
   }
 
+  .header-navigation{
+    justify-content: space-between;
+    align-items: center;
+  }
+
   .header-menu {
     display: flex;
     align-items: center;
@@ -1230,21 +1243,25 @@ margin-bottom: 16px;
 
 @media screen and (min-width: 1158px) {
 
-.container {
-  width: 100%; */
-  max-width: 1158px; 
-  padding-left: 15px;
-  padding-right: 15px;
-}
+  .header{
+    margin: 0 0;
+    width: auto;
+  }
 
-.header-container{
-  display: flex;
-  align-items: center;
-}
+  .container {
+    width: 100%; */
+    max-width: 1158px; 
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 
-.header{
-  margin: 0 0;
-  width: auto;
+  .header-container{
+    display: flex;
+    align-items: center;
+  }
+
+.header-navigation{
+
 }
 
 .header-logo {
