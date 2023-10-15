@@ -977,7 +977,8 @@ margin-bottom: 24px;
 
 .footer-form {
   display: flex;
-  gap: 24px;
+  flex-direction: column;
+  align-items: center;
 }
 
 .footer-form-input {
@@ -1026,7 +1027,7 @@ margin-bottom: 16px;
 
 .footer-form-btn {
   display: inline-flex;
-  min-width: 165px;
+  width: 165px;
   height: 40px;
   padding: 8px 24px;
   display: inline-flex;
@@ -1133,6 +1134,11 @@ margin-bottom: 16px;
   .footer-container{
    
   }
+
+  .footer-form-btn {
+
+  }
+
 }
 
 
@@ -1264,6 +1270,16 @@ margin-bottom: 16px;
   .footer-form-div{
     align-items: baseline; 
     
+  }
+
+  .footer-form {
+    flex-direction: row;
+    gap: 24px;
+    align-items: baseline;
+  }
+
+  .footer-form-btn {
+
   }
 
 }
