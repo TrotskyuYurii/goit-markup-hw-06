@@ -50,32 +50,29 @@ img {
   overflow: hidden;
 }
 
-
-
-
-
-
-
-/* header */
 body {
   font-family: 'Roboto', sans-serif;
   color: #434455;
   background-color: #FFFFFF;
 }
 
+
+
+
+
+/* header */
+
 .header{
   border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+  max-height: 56px;
+
 }
 
 .header-container{
-  display: flex;
-  align-items: center;
+
 }
 
-.header-navigation{
-  align-items: center;
-}
 
 .header-logo {
   display: flex;
@@ -86,8 +83,17 @@ body {
   line-height: 1.17; /* 116.667% */
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  margin-right: 76px;
-  padding: 24px 0;
+
+  margin-top: 17.5px;
+  margin-left: 16px;
+
+  /* margin-right: 76px;
+  padding: 24px 0; */
+}
+
+.mobile-menu-button{
+  border-style: none;
+  background: transparent;
 }
 
 .adress-lists{
@@ -159,6 +165,7 @@ color: #404BBF;
 
 .header-menu {
   display: flex;
+
   align-items: center;
   gap: 40px;
   color: #2e2f42;
@@ -167,11 +174,18 @@ color: #404BBF;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
 
+  
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
 }
 
 .address{
   font-style: normal; 
   margin-left: auto;
+
+  opacity: 0;
+  visibility: hidden;
 }
 
 .address-link{
@@ -1051,6 +1065,36 @@ margin-bottom: 16px;
 
 @media screen and (min-width: 768px) {
 
+  .header{
+    height: 72px;
+  }
+
+  .header-menu {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    color: #2e2f42;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5; /* 150% */
+    letter-spacing: 0.02em;
+  
+    opacity: 1;
+    visibility: visible;
+    pointer-events: all;
+  }
+
+  .mobile-menu-button{
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+  }
+
+  .address{
+    opacity: 1;
+    visibility: visible;
+  }
+
   .container {
     width: 100%; */
     max-width: 768px; 
@@ -1191,6 +1235,22 @@ margin-bottom: 16px;
   max-width: 1158px; 
   padding-left: 15px;
   padding-right: 15px;
+}
+
+.header-container{
+  display: flex;
+  align-items: center;
+}
+
+.header{
+  margin: 0 0;
+  width: auto;
+}
+
+.header-logo {
+  margin-right: 76px;
+  margin-left: 156px ;
+  /* padding: 24px 0; */
 }
 
 .main{
