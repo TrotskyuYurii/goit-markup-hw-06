@@ -1205,8 +1205,13 @@ margin-bottom: 16px;
     padding: 72px 16px 24px 16px; 
   }
 
+  .modal-btn{
+    transform: translate(45px);
+  }
 
+  .check-text{
 
+  }
 
 
 }
