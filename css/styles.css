@@ -247,11 +247,38 @@ color: #404BBF;
   font-size: 0%;
 }
 
-
 .mobilemenu-close-svg {
-/* fill: #2E2F42; 
-stroke: #2E2F42; */
 }
+
+.mob-menu-list {
+  /* margin-bottom: 50px; */
+}
+
+
+.mob-menu-item:not(:last-child) {
+  margin-bottom: 40px;
+}
+
+
+.mob-menu-link{
+  color: var(--OCEAN, #404BBF);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11; /* 111.111% */
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+
+.mob-menu-linkSpec{
+  color:black;
+}
+
+
+
+
+
+
 
 
 
