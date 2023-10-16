@@ -225,7 +225,6 @@ color: #404BBF;
   width: 100vw;
   height: 100vh;
   background-color: white;
-  /* padding: 20px; */
   padding: 24px 24px 40px 16px;
   display: flex;
   flex-direction: column;
@@ -271,6 +270,34 @@ color: #404BBF;
 
 
 .mob-menu-linkSpec{
+  color:black;
+}
+
+.mob-address{
+  margin-top: auto; 
+}
+
+.mob-adress-lists{
+  
+}
+
+.mob-adress-item{
+
+}
+
+.mob-adress-item:not(:last-child){
+  margin-bottom: 24px;
+}
+
+.mob-address-link{
+  color: var(--IRIS, #4D5AE5);
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  font-style: normal;
+}
+
+.mob-address-link-spec{
   color:black;
 }
 
