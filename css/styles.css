@@ -1416,8 +1416,8 @@ display: flex;
   .container {
     width: 100%;
     max-width: 1158px; 
-    /* padding-left: 16px;
-    padding-right: 16px; */
+    padding-left: 16px;
+    padding-right: 16px;
   }
 
   .header-container{
@@ -1495,8 +1495,16 @@ display: flex;
   letter-spacing: 0.02em;
 }
 
+.container-strategy{
+padding: 0px 0px;
+}
+
 .strategy-list-text {
   font-weight: 400;
+}
+
+.ourteam-container{
+padding: 0px 0px;
 }
 
 .ourteam-list{
@@ -1505,6 +1513,10 @@ display: flex;
   justify-content: center;
   /* max-height: 380px; */
   /* max-width: 264px; */
+}
+
+.ourportfolio-container{
+  padding: 0px 0px;
 }
 
 .ourportfolio-list{
@@ -1528,7 +1540,7 @@ display: flex;
 }
 
 .footer-all-div{
-
+  padding: 0px 0px;
   }
 
   .footer-container{
