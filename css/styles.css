@@ -172,8 +172,8 @@ color: #404BBF;
 }
 
 .header-menu {
-  display: flex;
-
+  /* display: flex; */
+display: none;
   align-items: center;
   gap: 40px;
   color: #2e2f42;
