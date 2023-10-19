@@ -211,8 +211,13 @@ color: #404BBF;
 }
 
 .menu-close-btn {
-  display: block;
-  margin-left: auto;
+  /* display: block; */
+  /* margin-left: auto; */
+  position: absolute;
+  top: 24px; 
+  right: 24px;
+
+  
   border-radius: 50%;
   border: 1px solid #E7E9FC; 
   background-color: transparent;
@@ -226,7 +231,7 @@ color: #404BBF;
 }
 
 .mob-menu-list {
-  /* margin-bottom: 50px; */
+  margin-top: 72px;
 }
 
 
