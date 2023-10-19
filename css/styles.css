@@ -990,6 +990,8 @@ margin-bottom: 24px;
 
 
 .check-text {
+  display: flex;
+
   color: rgba(64, 64, 64, 0.6);
   font-size: 12px;
   line-height: 1.17; 
@@ -1004,7 +1006,7 @@ margin-bottom: 24px;
 
 
 .privacy-policy-link{
-  margin-left: 4px;
+  /* margin-left: 4px; */
 }
 
 
