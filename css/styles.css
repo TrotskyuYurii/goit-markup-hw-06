@@ -54,6 +54,14 @@ body {
   margin: 0 auto;
 }
 
+.container-mob{
+width: 100%;
+height: 100%;
+display: flex;
+flex-direction: column;
+}
+
+
 .header{
   border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
@@ -194,8 +202,8 @@ color: #404BBF;
   height: 100vh;
   background-color: white;
   padding: 24px 24px 40px 16px;
-  display: flex;
-  flex-direction: column;
+  /* display: flex;
+  flex-direction: column; */
   overflow: auto;
   opacity: 0;
   visibility: hidden;
@@ -242,9 +250,11 @@ color: #404BBF;
 }
 
 .mob-address{
-  position: fixed;
+  /* position: fixed;
   bottom: 128px;
-  transform: translateX(-12%);  
+  transform: translateX(-12%);   */
+  margin-top: auto;
+  margin-bottom: 48px;
 }
 
 .mob-adress-lists{
@@ -277,9 +287,9 @@ color: #404BBF;
   gap: 40px;
   justify-content: center;
 
-  position: fixed;
+  /* position: fixed;
   bottom: 40px;
-  transform: translateX(-12%);
+  transform: translateX(-12%); */
 }
 .mob-soc-item {
   width: 40px;
