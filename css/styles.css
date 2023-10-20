@@ -747,7 +747,7 @@ padding-right: 0px;
   max-width: 264px;
   margin-top: 17.5px;
   text-align: left;
-  margin-bottom: 72px;
+  /* margin-bottom: 72px; */
 }
 
 .footer-soc-box{
@@ -1365,13 +1365,14 @@ display: flex;
 
 .footer-all-div{
   display: flex;
-  gap: 24px;
+  gap: 72px 24px;
   flex-wrap: wrap;
   max-width: 584px;
 }
 
 .footer-soc-box{
   align-items: baseline; 
+  margin-bottom: 0px;
  }
 
 .footer-social-media{
