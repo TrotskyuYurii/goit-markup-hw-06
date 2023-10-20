@@ -1578,12 +1578,13 @@ gap: 0px;
   }
 
   .footer-text{
-    margin-bottom: 0px;
-    margin-right: 120px;
+    /* margin-bottom: 0px; */
+    /* margin-right: 120px; */
+
   }
 
   .footer-container{
-
+margin-right: 120px;
   }
 
 
